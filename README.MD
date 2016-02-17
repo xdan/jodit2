@@ -1,6 +1,5 @@
 # Jodit
------------------------------
-Jodit is awesome and usefully wysiwyg editor with filebrowser. [Dcoumentation](http://xdsoft.net/jodit/doc/)
+Jodit is awesome and usefully wysiwyg editor with filebrowser. [Documentation](http://xdsoft.net/jodit/doc/)
 ## How use
 Download last [release](http://xdsoft.net/jodit/#pricing) or install
 ### by bower
@@ -33,6 +32,7 @@ $(function () {
 For using filebrowser you need use some serverside script. For example [Official PHP connector](https://github.com/xdan/jodit-connectors)
 ## Links
 ______________________
+* [Demo](http://xdsoft.net/jodit/)
 * [Download](http://xdsoft.net/jodit#download)
 * [Options](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html)
 * [How to create module for Jodit Editor](http://xdsoft.net/jodit/doc/tutorial-how-create-module.html)
