@@ -34,7 +34,6 @@ $(function () {
 ## Use FileBrowser
 For using filebrowser you need use some serverside script. For example [Official PHP connector](https://github.com/xdan/jodit-connectors)
 ## Links
-______________________
 * [Demo](http://xdsoft.net/jodit/)
 * [Download](http://xdsoft.net/jodit#download)
 * [Options](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html)
