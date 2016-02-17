@@ -28,6 +28,9 @@ $(function () {
     $('#editor').jodit();
 });
 ```
+### Result
+![ScreenShot](https://raw.github.com/xdan/jodit/master/screen.jpg)
+
 ## Use FileBrowser
 For using filebrowser you need use some serverside script. For example [Official PHP connector](https://github.com/xdan/jodit-connectors)
 ## Links
