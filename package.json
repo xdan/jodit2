@@ -1,5 +1,5 @@
 {
-  "name": "Jodit",
+  "name": "jodit",
   "version": "1.0.1",
   "description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
   "main": "jquery.jodit.min.js",
