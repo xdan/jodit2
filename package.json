@@ -1,8 +1,14 @@
 {
   "name": "jodit",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
   "main": "jquery.jodit.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "concat": "concat-cli -f jquery.jodit.js config.js modules/* plugins/* build/jquery.jodit.full.js",
+    "minify": "uglifyjs build/jquery.jodit.full.js -c -m -o build/jquery.jodit.min.js",
+    "build": "npm run concat && npm run minify"
+  },
   "homepage": "http://xdsoft.net/jodit/",
   "keywords": [
     "wysiwyg",

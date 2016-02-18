@@ -1,7 +1,11 @@
 {
   "name": "Jodit",
   "description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
-  "main": "build/jquery.jodit.min.js",
+  "version": "1.0.4",
+  "main": [
+    "jquery.jodit.min.js",
+    "jquery.jodit.min.css"
+  ],
   "authors": [
     {
       "name": "Chupurnov Valeriy",
