@@ -1,7 +1,7 @@
 # Jodit is the best WYSIWYG editor
 Jodit is awesome and usefully wysiwyg editor with filebrowser. [Documentation](http://xdsoft.net/jodit/doc/)
 ## How use
-Download last [release](http://xdsoft.net/jodit/#pricing) or install
+Download last [release](http://xdsoft.net/jodit/#download) or install
 ### by bower
 ```
 bower install jodit
