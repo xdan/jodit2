@@ -16,7 +16,16 @@
 <script>
 $(function(){
 	$('#jodit')
-		.jodit();
+		.jodit({
+            uploader: {
+				url: 'jodit-connectors/index.php?action=upload'
+			},
+			filebrowser: {
+                ajax: {
+                    url: 'jodit-connectors/index.php'
+                },
+			}
+        });
 });
 </script>
 <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,100italic,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
