@@ -4,32 +4,32 @@
 1 verbose cli   'run',
 1 verbose cli   'github' ]
 2 info using npm@2.14.7
-3 info using node@v4.2.1
+3 info using node@v5.7.0
 4 verbose run-script [ 'pregithub', 'github', 'postgithub' ]
-5 info pregithub jodit@1.1.0
-6 info github jodit@1.1.0
+5 info pregithub jodit@1.1.1
+6 info github jodit@1.1.1
 7 verbose unsafe-perm in lifecycle true
-8 info jodit@1.1.0 Failed to exec github script
-9 verbose stack Error: jodit@1.1.0 github: `git add .  && git commit -m "new version $npm_package_version" && git tag $npm_package_version && git push --tags origin HEAD:master && npm publish`
-9 verbose stack Exit status 128
+8 info jodit@1.1.1 Failed to exec github script
+9 verbose stack Error: jodit@1.1.1 github: `git add .  && git commit -m "new version $npm_package_version" && git tag $npm_package_version && git push --tags origin HEAD:master && npm publish`
+9 verbose stack Exit status 1
 9 verbose stack     at EventEmitter.<anonymous> (c:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:214:16)
-9 verbose stack     at emitTwo (events.js:87:13)
-9 verbose stack     at EventEmitter.emit (events.js:172:7)
+9 verbose stack     at emitTwo (events.js:100:13)
+9 verbose stack     at EventEmitter.emit (events.js:185:7)
 9 verbose stack     at ChildProcess.<anonymous> (c:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
-9 verbose stack     at emitTwo (events.js:87:13)
-9 verbose stack     at ChildProcess.emit (events.js:172:7)
-9 verbose stack     at maybeClose (internal/child_process.js:818:16)
+9 verbose stack     at emitTwo (events.js:100:13)
+9 verbose stack     at ChildProcess.emit (events.js:185:7)
+9 verbose stack     at maybeClose (internal/child_process.js:827:16)
 9 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
-10 verbose pkgid jodit@1.1.0
+10 verbose pkgid jodit@1.1.1
 11 verbose cwd c:\WebServers\home\analize\jodit\github
 12 error Windows_NT 6.1.7601
 13 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "github"
-14 error node v4.2.1
+14 error node v5.7.0
 15 error npm  v2.14.7
 16 error code ELIFECYCLE
-17 error jodit@1.1.0 github: `git add .  && git commit -m "new version $npm_package_version" && git tag $npm_package_version && git push --tags origin HEAD:master && npm publish`
-17 error Exit status 128
-18 error Failed at the jodit@1.1.0 github script 'git add .  && git commit -m "new version $npm_package_version" && git tag $npm_package_version && git push --tags origin HEAD:master && npm publish'.
+17 error jodit@1.1.1 github: `git add .  && git commit -m "new version $npm_package_version" && git tag $npm_package_version && git push --tags origin HEAD:master && npm publish`
+17 error Exit status 1
+18 error Failed at the jodit@1.1.1 github script 'git add .  && git commit -m "new version $npm_package_version" && git tag $npm_package_version && git push --tags origin HEAD:master && npm publish'.
 18 error This is most likely a problem with the jodit package,
 18 error not with npm itself.
 18 error Tell the author that this fails on your system:
