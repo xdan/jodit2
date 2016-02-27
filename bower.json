@@ -1,14 +1,16 @@
 {
   "name": "jodit",
   "description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "main": [
     "jquery.jodit.min.js",
     "jquery.jodit.min.css"
   ],
   "ignore": [
-    "index.html",
-    "README.MD",
+    "**/jquery.min.js",
+    "**/screen.jpg",
+    "**/index.html",
+    "**/README.MD",
     "node_modules"
   ],
   "authors": [

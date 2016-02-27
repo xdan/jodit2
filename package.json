@@ -1,6 +1,6 @@
 {
   "name": "jodit",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "config" : { "port" : "3000" },
   "description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
   "main": "jquery.jodit.min.js",
