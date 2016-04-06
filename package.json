@@ -1,6 +1,6 @@
 {
   "name": "jodit",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "config" : { "port" : "3000" },
   "description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
   "main": "jquery.jodit.min.js",
@@ -28,7 +28,8 @@
     "url": "https://github.com/xdan/jodit.git"
   },
   "devDependencies": {
-    "concat-cli": "^1.0.1",
+    "concat": "azer/concat",
+    "concat-cli": "^4.0.0",
     "uglifyjs": "^2.4.10"
   }
 }
