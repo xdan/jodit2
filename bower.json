@@ -1,10 +1,10 @@
 {
   "name": "jodit",
   "description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "main": [
-    "jquery.jodit.min.js",
-    "jquery.jodit.min.css"
+    "jodit.min.js",
+    "jodit.min.css"
   ],
   "authors": [
     {
@@ -21,9 +21,7 @@
     "rich",
     "jodit"
   ],
-  "dependencies": {
-    "jquery": ">= 1.7.2"
-  },
+  "dependencies": {},
   "homepage": "http://xdsoft.net/jodit/",
   "moduleType": [],
   "ignore": [

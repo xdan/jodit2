@@ -1,6 +1,6 @@
 {
   "name": "jodit",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "config" : { "port" : "3000" },
   "description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
   "main": "jquery.jodit.min.js",
@@ -13,7 +13,6 @@
   "homepage": "http://xdsoft.net/jodit/",
   "keywords": [
     "wysiwyg",
-    "jquery",
     "editor",
     "rich",
     "jodit"
