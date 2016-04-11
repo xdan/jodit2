@@ -1,5 +1,5 @@
 # Jodit is the best WYSIWYG editor
-Jodit is awesome and usefully wysiwyg editor with filebrowser. [Documentation](http://xdsoft.net/jodit/doc/)
+Jodit is awesome and usefully wysiwyg editor with filebrowser. Without any dependencies [Documentation](http://xdsoft.net/jodit/doc/)
 ## How use
 Download last [release](http://xdsoft.net/jodit/#download) or install
 ### by bower
@@ -12,7 +12,6 @@ npm install jodit
 ```
 After include a few file in your page
 ```xml
-<script type="text/javascript" src="jquery.min.js"></script>
 <link type="text/css" rel="stylesheet" href="jquery.jodit.min.css">
 <script type="text/javascript" src="jquery.jodit.min.js"></script>
 ```
@@ -24,9 +23,7 @@ And some `<textarea>` element
 After this, you can init Jodit plugin
 
 ```javascript
-$(function () {
-    $('#editor').jodit();
-});
+new Jodit('#editor');
 ```
 ### Result
 ![ScreenShot](https://raw.github.com/xdan/jodit/master/screen.jpg)
