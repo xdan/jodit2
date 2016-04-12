@@ -1,13 +1,13 @@
 {
   "name": "jodit",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "config" : { "port" : "3000" },
   "description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
   "main": "jquery.jodit.min.js",
   "scripts": {
     "concat": "concat-cli -f jquery.jodit.js config.js modules/* plugins/* build/jquery.jodit.full.js",
     "minify": "uglifyjs jquery.jodit.full.js -c -m -o build/jquery.jodit.min.js",
-    "github": "git add --all  && git commit -m \"New version %npm_package_version%. Without any dependencies\" && git tag %npm_package_version% && git push --tags origin HEAD:master && npm publish",
+    "github": "git add --all  && git commit -m \"New version %npm_package_version%. Fix slow table process. Fox drop image\" && git tag %npm_package_version% && git push --tags origin HEAD:master && npm publish",
     "build": "npm run concat && npm run minify"
   },
   "homepage": "http://xdsoft.net/jodit/",
