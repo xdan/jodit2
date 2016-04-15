@@ -61,6 +61,8 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.1.0
+Added internationalization. Read more http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#toc21__anchor
 ### 2.0.9
 Added Split mode. Added [useSplitMode](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#toc39__anchor) options (default true) Example [here](http://xdsoft.net/jodit/#splitmode)
 ### 2.0.8
