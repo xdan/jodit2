@@ -11,6 +11,7 @@ Jodit.lang.de = {
     'Copyright © XDSoft.net - Chupurnov Valeriy. All rights reserved.': 'Copyright © XDSoft.net - Chupurnov Valeriy. Alle Rechte vorbehalten.',
     
     // Toolbar
+    'Anchor': 'Anker',
     'Open in new tab': 'In neuer Registerkarte öffnen',
     'Open editor in fullsize': 'Editor öffnen in voller Größe',
     'Clear Formatting': 'Formatierung löschen',
