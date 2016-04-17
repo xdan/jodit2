@@ -61,10 +61,14 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.2.0
+Added [iframe](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.iframe), [iframeStyle](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.iframeStyle), [iframeIncludeJoditStyle](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.iframeIncludeJoditStyle), [iframeCSSLinks](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.iframeCSSLinks), [width](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.width), [height](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.height), [minHeight](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.minHeight).
+ `iframe` by default false. When this option is enabled, the editor's content will be placed in an iframe and isolated from the rest of the page.
+ `width` and `height` you can set size fot editor
 ### 2.1.0
-Added internationalization. Read more http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#toc21__anchor
+Added internationalization. Read more http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.language
 ### 2.0.9
-Added Split mode. Added [useSplitMode](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#toc39__anchor) options (default true) Example [here](http://xdsoft.net/jodit/#splitmode)
+Added Split mode. Added [useSplitMode](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.useSplitMode) options (default true) Example [here](http://xdsoft.net/jodit/#splitmode)
 ### 2.0.8
 Fix dialog bug
 ### 2.0.4
