@@ -61,6 +61,8 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.2.4
+Added the ability in the file browser to obtain data about the file not as a string and as an object with parameters {file: 'name.jpg', thumb: '_thumbs/name.jpg'}
 ### 2.2.3
 Fix conflict between textProcessor and Beatyfier plugins
 ### 2.2.2
