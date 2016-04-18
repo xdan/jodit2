@@ -1,13 +1,13 @@
 {
   "name": "jodit",
-  "version": "2.2.1",
+  "version": "2.2.2",
   "config" : { "port" : "3000" },
   "description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
   "main": "jodit.min.js",
   "scripts": {
     "concat": "concat-cli -f jodit.js config.js modules/* plugins/* build/jodit.full.js",
     "minify": "uglifyjs jodit.full.js -c -m -o build/jodit.min.js",
-    "github": "git add --all  && git commit -m \"New version %npm_package_version%. Added [iframe](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.iframe), [iframeStyle](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.iframeStyle), [iframeIncludeJoditStyle](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.iframeIncludeJoditStyle), [iframeCSSLinks](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.iframeCSSLinks), [width](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.width), [height](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.height), [minHeight](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.minHeight). Read more http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#toc21__anchor\" && git tag %npm_package_version% && git push --tags origin HEAD:master && npm publish",
+    "github": "git add --all  && git commit -m \"New version %npm_package_version%. Fix BACKSPACE entering behavior. And fix ie10 support\" && git tag %npm_package_version% && git push --tags origin HEAD:master && npm publish",
     "build": "npm run concat && npm run minify"
   },
   "homepage": "http://xdsoft.net/jodit/",
