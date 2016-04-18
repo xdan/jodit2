@@ -10,13 +10,17 @@ ______________________
 <script>
 var editor = new Jodit('#editor', {
     uploader: {
-        url: '../connector/index.php?action=upload'
+        url: '../connector/index.php?action=upload',
+        process: function (resp) {
+            resp.baseurl = '/jodit/files/';
+            return resp;
+        }
     },
     filebrowser: {
         ajax: {
             url: '../connector/index.php',
             process: function (resp) {
-                resp.baseurl = '/images/';
+                resp.baseurl = '/jodit/files/';
                 return resp;
             },
         }
@@ -61,6 +65,8 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.0
+Added copy-paste image file for FireFox
 ### 2.2.6
 Fix copy-paste for FireFox
 ### 2.2.5
