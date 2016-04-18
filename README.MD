@@ -61,6 +61,10 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.2.3
+Fix conflict between textProcessor and Beatyfier plugins
+### 2.2.2
+Fix BACKSPACE entering behavior. And fix ie10 support
 ### 2.2.0
 Added [iframe](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.iframe), [iframeStyle](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.iframeStyle), [iframeIncludeJoditStyle](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.iframeIncludeJoditStyle), [iframeCSSLinks](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.iframeCSSLinks), [width](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.width), [height](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.height), [minHeight](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.minHeight).
  `iframe` by default false. When this option is enabled, the editor's content will be placed in an iframe and isolated from the rest of the page.
