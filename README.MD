@@ -61,6 +61,8 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.2.6
+Fix copy-paste for FireFox
 ### 2.2.5
 Added copy-paste support by clipboard image. [Try](http://xdsoft.net/jodit) paste print screen.
 ### 2.2.4
