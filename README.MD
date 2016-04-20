@@ -31,11 +31,11 @@ var editor = new Jodit('#editor', {
 ## Get Started
 ## How use
 Download last [release](http://xdsoft.net/jodit/#download) or
-### INSTALL FROM BOWER
+### INSTALL VIA BOWER
 ```
 bower install jodit
 ```
-### INSTALL FROM NPM
+### INSTALL VIA NPM
 ```
 npm install jodit
 ```
@@ -45,6 +45,12 @@ Include just two files
 <link type="text/css" rel="stylesheet" href="jodit.min.css">
 <script type="text/javascript" src="jodit.min.js"></script>
 ```
+###CDN
+```xml
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.2/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.2/jodit.min.js"></script>
+```
+###USAGE
 And some `<textarea>` element
 
 ```xml
