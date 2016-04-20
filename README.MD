@@ -2,8 +2,10 @@
 ______________________
 
 Editor and FileBrowser - Jodit. Pure javascript. No libraries! Lightweight:~32kB gzipped.
-## Non-commercial free. Read [more](http://xdsoft.net/jodit/license.html)
-## Download or Buy [you can here](http://xdsoft.net/jodit/#download)
+## Non-commercial free. 
+Read [more](http://xdsoft.net/jodit/license.html)
+## Download or Buy 
+[you can here](http://xdsoft.net/jodit/#download)
 ______________________
 
 <textarea id="editor" name="editor"></textarea>
@@ -47,8 +49,8 @@ Include just two files
 ```
 ###CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.2/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.2/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.3/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.3/jodit.min.js"></script>
 ```
 ###USAGE
 And some `<textarea>` element
@@ -71,6 +73,8 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.3
+Switched on FontAwesome icons
 ### 2.3.0
 Added copy-paste image file for FireFox
 ### 2.2.6
