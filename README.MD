@@ -47,12 +47,13 @@ Include just two files
 <link type="text/css" rel="stylesheet" href="jodit.min.css">
 <script type="text/javascript" src="jodit.min.js"></script>
 ```
-###CDN
+### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.5/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.5/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.6/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.6/jodit.min.js"></script>
 ```
-###USAGE
+### USAGE
+
 And some `<textarea>` element
 
 ```xml
