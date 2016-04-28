@@ -49,8 +49,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.6/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.6/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.8/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.8/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -74,6 +74,8 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.8
+Fix connector problem and fix item's style in filebrowser
 ### 2.3.3
 Switched on FontAwesome icons
 ### 2.3.0
