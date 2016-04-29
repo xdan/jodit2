@@ -49,8 +49,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.13/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.13/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.14/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.14/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -74,6 +74,8 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.14
+Work with table became faster
 ### 2.3.12
 * Fix filbrowser bug. When a new file is uploaded file list has not been updated
 * Added [dialog.zIndex](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.dialog) option
