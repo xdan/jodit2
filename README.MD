@@ -49,8 +49,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.10/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.10/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.11/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.11/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -74,6 +74,8 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.11
+* Fix toolbar width fot fullsize mode
 ### 2.3.10
 * Fix CodeMirror bug on download XML parser
 * Fix CodeMirror bug endless cycle
