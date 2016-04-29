@@ -74,6 +74,8 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.15
+Fix bug with inserting table
 ### 2.3.14
 Work with table became faster
 ### 2.3.12
