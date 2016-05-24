@@ -49,8 +49,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.16/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.16/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.18/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.18/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -74,6 +74,15 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.18
+Added `afterInsertImage` event - triggered after image was inserted [selection.insertImage](http://xdsoft.net/jodit/doc/module-Selection.html#-insertImage__anchor). 
+This method can executed from [Filebrowser](http://xdsoft.net/jodit/doc/module-Filebrowser.html) or [Uploader](http://xdsoft.net/jodit/doc/module-Uploader.html)
+```javascript
+var editor = new Jodit("#redactor");
+editor.events.on('afterInsertImage', function (image) {
+    image.className = 'bloghead4';    
+});
+```
 ### 2.3.15
 Fix bug with inserting table
 ### 2.3.14
