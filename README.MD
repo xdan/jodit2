@@ -74,6 +74,12 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.20
+Fix dialog's module zIndex manage.
+Fix [Dom.css][] method bug. That example has not worked.
+```javascript
+Jodit.modules.Dom('.someelement').css('z-index', 1000) 
+```
 ### 2.3.19
 Fix bug in Uploader module when `http://sitename.net/jodit///files/fg.jpg` was replaced `http:/sitename.net/jodit/files/fg.jpg`
 ### 2.3.18
