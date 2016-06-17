@@ -49,8 +49,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.20/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.20/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.22/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.22/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -74,6 +74,11 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.22
+Fix bug when Dialog module was used without Jodit context
+```javascript
+Jodit.Alert('Hello world!!!');
+```
 ### 2.3.20
 Fix dialog's module zIndex manage.
 Fix [Dom.css](http://xdsoft.net/jodit/doc/module-Dom.html#~css) method bug. That example has not worked.
