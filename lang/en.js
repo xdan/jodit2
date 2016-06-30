@@ -1,5 +1,5 @@
 Jodit.lang.en = {
-    'Type something': '',
+    'Type something': 'Start writing...',
     // About
     'About Jodit': '',
     'Jodit Editor': '',

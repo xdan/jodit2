@@ -49,8 +49,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.22/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.22/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.24/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.24/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -74,6 +74,36 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.24
+Fix dialog's module when was opened Promt window, after Enter submit the form and the page reloaded. 
+Fix connector's bugs
+Update [Jodit.i18n](http://xdsoft.net/jodit/doc/module-Jodit.html#.i18n) method. Now it can be used staticly
+```javascript
+var editor = new Jodit("#redactor", {
+     langusage: 'ru' 
+});
+console.log(editor.i18n('Cancel')) //Отмена;
+
+Jodit.defaultOptions.language = 'ru';
+console.log(Jodit.prototype.i18n('Cancel')) //Отмена 
+
+Jodit.lang.cs = {
+   Cancel: 'Zrušit'
+};
+Jodit.defaultOptions.language = 'cs';
+console.log(Jodit.prototype.i18n('Cancel')) //Zrušit 
+
+Jodit.lang.cs = {
+   'Hello world': 'Hello 1$ Good 2$'
+};
+Jodit.defaultOptions.language = 'cs';
+console.log(Jodit.prototype.i18n('Hello world', 'mr.Perkins', 'day')) //Hello mr.Perkins Good day
+```
+Fixed [Jodit.destroy](http://xdsoft.net/jodit/doc/module-Jodit.html#.destroy) method
+```javascript
+var editor = new Jodit('.jodit');
+editor.destroy();
+```
 ### 2.3.22
 Fix bug when Dialog module was used without Jodit context
 ```javascript
