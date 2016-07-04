@@ -49,8 +49,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.25/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.25/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.26/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.26/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -74,6 +74,8 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.27
+Fixed [#issues1](https://github.com/xdan/jodit/issues/1)
 ### 2.3.24
 Fix dialog's module when was opened Promt window, after Enter submit the form and the page reloaded. 
 Fix connector's bugs
