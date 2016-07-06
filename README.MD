@@ -49,8 +49,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.26/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.26/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.28/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.28/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -74,6 +74,43 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.28
+Added `headers` option in {@link module:FileBrowser|FileBrowser} and {@link module:Uploader|Uploader}. But primarily in {@link module:Dom|Dom}
+```javascript
+var token = document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
+    editor = new Jodit("#redactor", {
+        uploader: {
+            url: '../connector/index.php?action=upload',
+            headers: {
+                'X-CSRF-Token': token
+            }
+        },
+        filebrowser: {
+            ajax: {
+                url: '../connector/index.php',
+                headers: {
+                    'X-CSRF-Token': token
+                }
+            }
+        },
+    });
+// or replace global options
+Jodit.modules.Dom.defaultAjaxOptions.headers = {
+    headers: {
+        'X-CSRF-Token': token
+    }
+};
+```
+```javascript
+Jodit.modules.Dom.ajax({
+    url: 'data.json',
+    headers: {
+        'Accept-Language': 'en-US,en;q=0.8,ru;q=0.6,de;q=0.4,ja;q=0.2'
+    },
+    success: function (resp) {
+        console.log(resp)
+    }
+})
 ### 2.3.27
 Fixed [#issues1](https://github.com/xdan/jodit/issues/1)
 ### 2.3.24
