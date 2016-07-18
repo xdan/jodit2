@@ -66,14 +66,18 @@ new Jodit('#editor');
 ```
 ## Browser Support
 ______________________
-* Internet Explorer 10+
-* Opera 12+
-* Safari 6+
-* Firefox 42+
-* Chrome 48+
+* Latest Chrome (desktop)
+* Latest Firefox (desktop only)
+* Latest Safari (desktop)
+* Latest Opera (webkit)
+* Internet Explorer 10
+* Microsoft Edge
 
 ## Changelog
 ______________________
+### 2.3.31
+Added [editorCssClass](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#editorcssclass) option - Class name that can be appended to the editor
+Fixed internacionalization
 ### 2.3.30
 Added [triggerChangeEvent](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#triggerchangeevent) option
 Fix uploader's options - When the uploader is not configured, the editor still displays images upload button
