@@ -51,8 +51,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.33/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.33/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.35/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.35/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -77,6 +77,17 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.35
+* Fix placeholder style
+* Fix [Dom.css](http://xdsoft.net/jodit/doc/module-Dom.html#~css) then 
+```html
+<div class="idclass" style="margin-top:20px;"></div>
+```
+```javascript
+Jodit.modules.Dom('.idclass').css('margin-top');//has returned string `10px` 
+Jodit.modules.Dom('.idclass').css('margin-top');//now it returns int `10` 
+```
+
 ### 2.3.33
 * Fix placeholder style. Placeholder placed in a separate module [Placeholder](http://xdsoft.net/jodit/doc/module-Placeholder.html)
 * Added [showPlaceholder](http://xdsoft.net/jodit/doc/module-Placeholder.html#showplaceholder) option
