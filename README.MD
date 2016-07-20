@@ -1,6 +1,8 @@
 [![Gitter](https://badges.gitter.im/xdan/jodit.svg)](https://gitter.im/xdan/jodit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Jodit WYSIWYG Editor
+
+[![Join the chat at https://gitter.im/xdan/jodit](https://badges.gitter.im/xdan/jodit.svg)](https://gitter.im/xdan/jodit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 ______________________
 
 Editor and FileBrowser - Jodit. Pure javascript. No libraries! Lightweight:~32kB gzipped.
