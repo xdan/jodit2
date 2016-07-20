@@ -51,8 +51,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.35/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.35/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.36/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.36/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -77,6 +77,8 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.37
+Fast fix
 ### 2.3.36
 * Added plugin `Fullsize`. Now you can change fullsize mode 
 ```javascript
