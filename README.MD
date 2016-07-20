@@ -51,8 +51,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.36/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.36/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.37/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.37/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -77,6 +77,12 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.38
+* Fix i18n bug
+* [useSplitMode](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#usesplitmode) set default false
+* Fix toolbar width after fullsize mode
+* Fixed [#issue5](https://github.com/xdan/jodit/issues/5)
+
 ### 2.3.37
 Fast fix
 ### 2.3.36

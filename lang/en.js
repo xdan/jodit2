@@ -1,4 +1,4 @@
-Jodit.lang.en = {
+Jodit.lang.en_example = {
     'Type something': 'Start writing...',
     // About
     'About Jodit': '',
