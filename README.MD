@@ -77,6 +77,17 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.36
+* Added plugin `Fullsize`. Now you can change fullsize mode 
+```javascript
+var editor = new Jodit();
+editor.events.fire('toggleFullsize');
+editor.events.fire('toggleFullsize', [true]); // fullsize
+editor.events.fire('toggleFullsize', [false]); // usual mode
+```
+* Added [globalFullsize](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#globalFullsize) (default `true`) if true, after `fullsize` - all parents element get `jodit_fullsize_box` class (z-index: 100000 !important;) 
+* Fix focus bug
+ 
 ### 2.3.35
 * Fix placeholder style
 * Fix [Dom.css](http://xdsoft.net/jodit/doc/module-Dom.html#~css) then 
@@ -84,8 +95,8 @@ ______________________
 <div class="idclass" style="margin-top:20px;"></div>
 ```
 ```javascript
-Jodit.modules.Dom('.idclass').css('margin-top');//has returned string `10px` 
-Jodit.modules.Dom('.idclass').css('margin-top');//now it returns int `10` 
+Jodit.modules.Dom('.idclass').css('margin-top');//has returned string `20px` 
+Jodit.modules.Dom('.idclass').css('margin-top');//now it returns int `20` 
 ```
 
 ### 2.3.33
