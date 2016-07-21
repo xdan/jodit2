@@ -51,8 +51,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.37/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.37/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.38/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.38/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -77,6 +77,47 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.39
+Fix [Filebrowser](http://xdsoft.net/jodit/doc/module-Filebrowser.html) uploader's options bug. 
+Previously , you had to either use a general [Uploader](http://xdsoft.net/jodit/doc/module-Uploader.html) module settings , or override them completely
+```javascript
+var editor = new Jodit('.redactor', {
+    filebrowser: {
+        uploader: null
+    },
+    uploader: {
+        url: 'uploader.php',
+        format: 'json',
+    }
+});
+
+// or
+var editor = new Jodit('.redactor', {
+    filebrowser: {
+        uploader:  {
+            url: 'uploader.php',
+            format: 'json',
+            filesVariableName: 'fils',
+            //... all options from [uploader](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#uploader)
+        }
+    }
+});
+```
+
+Now you can just override some of your settings
+```javascript
+var editor = new Jodit('.redactor', {
+    filebrowser: {
+        uploader: {
+            url: 'uploader2.php',
+        }
+    },
+    uploader: {
+        url: 'uploader.php',
+    }
+});
+```
+
 ### 2.3.38
 * Fix i18n bug
 * [useSplitMode](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#usesplitmode) set default false
