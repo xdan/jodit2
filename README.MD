@@ -51,8 +51,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.42/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.42/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.43/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.43/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -77,6 +77,14 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.44
+Added [direction](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#direction) option.
+The writing direction of the language which is used to create editor content.
+Allowed values are: 
+* '' (an empty string) – Indicates that content direction will be the same as either the editor UI direction or the page element direction. 
+* 'ltr' – Indicates a Left-To-Right text direction (like in English).
+* 'rtl' – Indicates a Right-To-Left text direction (like in Arabic).
+
 ### 2.3.43
 Fix styles bugs
 
