@@ -51,8 +51,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.46/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.46/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.47/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.47/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -77,9 +77,27 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.48
+Added [spellcheck](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#spellcheck) option specifies whether the editor is to have its spelling and grammar checked or not
+
+### 2.3.47
+Added [removeEmptyBlocks](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#removeemptyblocks) option - Remove empty blocks
+
+```javascript
+var editor = new Jodit('#editor', {
+   removeEmptyBlocks: false
+});
+editor.val(' ');// add space in editor
+console.log(editor.val()); //<p>&nbsp;</p>
+
+editor.options.removeEmptyBlocks = true;
+editor.val(' ');
+console.log(editor.val()); //''
+```
+
 ### 2.3.46
-* Fix critical bug in Safari (window.performance)
-* Fix bug when editor can get selection from another place
+* Fixed critical bug in Safari (window.performance)
+* Fixed bug when editor can get selection from another place
 
 ### 2.3.44
 Added [direction](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#direction) option.
