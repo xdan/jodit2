@@ -8,6 +8,10 @@ Editor and FileBrowser - Jodit. Pure javascript. No libraries! Lightweight:~32kB
 Read [more](http://xdsoft.net/jodit/license.html)
 ## Download or Buy 
 [you can here](http://xdsoft.net/jodit/#download)
+
+## Extensions
+* [Jodit Joomla editor](http://xdsoft.net/jodit/release/joomla.zip)
+* [Jodit Yii2](https://github.com/worstinme/yii2-jodit)
 ______________________
 
 <textarea id="editor" name="editor"></textarea>
@@ -51,8 +55,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.55/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.55/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.56/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.56/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -77,6 +81,10 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.57
+* Fix issue with `input[type=checkbox]` and [Dom.attr](http://xdsoft.net/jodit/doc/module-Dom.html#attr) method
+* Release Joomla Jodit Editor (JJE) [Download JJE](http://xdsoft.net/jodit/release/joomla.zip)
+
 ### 2.3.53
 * Added option [cleanHTML.cleanOnPaste](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#cleanhtml) The plugin [cleanHTML](http://xdsoft.net/jodit/doc/module-cleanHTML.html) automatically cleans up content from Microsoft Word and other HTML sources to ensure clean, compliant content that matches the look and feel of the site.
 * Added [beforePaste](http://xdsoft.net/jodit/doc/module-Jodit.html#~event:beforePaste),[processPaste](http://xdsoft.net/jodit/doc/module-Jodit.html#~event:processPaste),[afterPaste](http://xdsoft.net/jodit/doc/module-Jodit.html#~event:afterPaste) events
