@@ -55,8 +55,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.57/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.57/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.58/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.3.58/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -81,6 +81,11 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.3.59
+* Added [Cookie](http://xdsoft.net/jodit/doc/module-Cookie.html) module
+* Added [saveModeInCookie](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#savemodeincookie) if it is true that the current mode is saved in a cookie , and is restored after a reload of the page
+* In Joomla Jodit Editor(JJE) added corresponding option saveModeInCookie [Download Jodit Joomla editor](http://xdsoft.net/jodit/release/joomla.zip)
+
 ### 2.3.57
 * Fix issue with `input[type=checkbox]` and [Dom.attr](http://xdsoft.net/jodit/doc/module-Dom.html#attr) method
 * Release Joomla Jodit Editor (JJE) [Download JJE](http://xdsoft.net/jodit/release/joomla.zip)
