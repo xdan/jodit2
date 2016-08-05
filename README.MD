@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.8/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.8/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.7/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.7/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -80,6 +80,9 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.4.8
+Fix Base icons [issue](https://gist.github.com/leonderijke/c5cf7c5b2e424c0061d2)
+
 ### 2.4.6
 Fast fix in JJE
 Fix a lot of bugs in Jodit
