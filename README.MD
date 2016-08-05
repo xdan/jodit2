@@ -55,8 +55,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.4/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.4/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.5/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.5/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -81,6 +81,10 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.4.6
+Fast fix in JJE
+Fix a lot of bugs in Jodit
+
 ### 2.4.1
 * Fixed a lot of bugs in Dom module
 * Fixed a lot of bugs in TableProcessor module
