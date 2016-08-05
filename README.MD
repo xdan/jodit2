@@ -1,7 +1,6 @@
 [![Gitter](https://badges.gitter.im/xdan/jodit.svg)](https://gitter.im/xdan/jodit?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 # Jodit WYSIWYG Editor
-______________________
 
 Editor and FileBrowser - Jodit. Pure javascript. No libraries! Lightweight:~32kB gzipped.
 ## Non-commercial free. 
@@ -12,7 +11,7 @@ Read [more](http://xdsoft.net/jodit/license.html)
 ## Extensions
 * [Jodit Joomla editor](http://xdsoft.net/jodit/release/joomla.zip)
 * [Jodit Yii2](https://github.com/worstinme/yii2-jodit)
-______________________
+
 
 <textarea id="editor" name="editor"></textarea>
 <script>
@@ -55,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.6/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.6/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.7/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.7/jodit.min.js"></script>
 ```
 ### USAGE
 
