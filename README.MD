@@ -88,9 +88,9 @@ var editor = new Jodit('.jodit'),
 editor.selection.insertNode(node);
 ```
 * Added [link](http://xdsoft.net/jodit/doc/module-link.html) plugin. And its options
-  * processPastedLink Wrap inserted link in `<a href="link">link</a>`
-  * openLinkDialogAfterPost Open Link dialog after post 
-  * removeLinkAfterFormat When the button is pressed to clean format, if it was done on the link is removed like command `unlink` 
+  * [processPastedLink](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#link) Wrap inserted link in `<a href="link">link</a>`
+  * [openLinkDialogAfterPost](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#link) Open Link dialog after post 
+  * [removeLinkAfterFormat](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#link) When the button is pressed to clean format, if it was done on the link is removed like command `unlink` 
 * Replace format icon
 
 ### 2.4.8
