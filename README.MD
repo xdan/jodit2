@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.10/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.10/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.11/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.11/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -69,6 +69,14 @@ After this, you can init Jodit plugin
 ```javascript
 new Jodit('#editor');
 ```
+
+### Build bought PRO or OEM version
+
+```
+npm install
+npm run build
+```
+
 ## Browser Support
 ______________________
 * Latest Chrome (desktop)
@@ -80,6 +88,13 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.4.12
+Added [toolbarButtonSize](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#toolbarbuttonsize) Size of icons in the toolbar (can be "small", "middle", "large")
+```javascript
+var editor  = new  Jodit("#editor", {
+    toolbarButtonSize: "small"   
+});
+```
 ### 2.4.10
 * Added [node.create](http://xdsoft.net/jodit/doc/module-Node.html#create) method
 ```javascript
