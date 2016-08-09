@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.14/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.14/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.15/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.15/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,12 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.4.16
+Fixed bug on after type `Enter`
+
+### 2.4.15
+Fixed bug with insert `OL` tag and fix Dom module work with Text node
+
 ### 2.4.12
 Added [toolbarButtonSize](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#toolbarbuttonsize) Size of icons in the toolbar (can be "small", "middle", "large")
 ```javascript
