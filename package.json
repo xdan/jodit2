@@ -1,12 +1,11 @@
 {
   "name": "jodit",
   "version": "2.4.9",
-  "config" : { "port" : "3000" },
   "description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
   "main": "jodit.min.js",
   "scripts": {
-    "concat": "concat-cli -f jodit.js config.js modules/* plugins/* build/jodit.full.js",
-    "minify": "uglifyjs jodit.full.js -c -m -o build/jodit.min.js",
+    "concat": "concatinator -f jodit.js config.js modules/*.js plugins/*.js -o build/jodit.full.js",
+    "minify": "uglifyjs build/jodit.full.js -c -m -o jodit.min.js && lessc --clean-css less/jodit.less jodit.min.css",
     "github": "git add --all  && git commit -m \"New version %npm_package_version%. Read more http://xdsoft.net/jodit/doc/index.html#%npm_package_version% \" && git tag %npm_package_version% && git push --tags origin HEAD:master && npm publish",
     "build": "npm run concat && npm run minify"
   },
@@ -17,7 +16,7 @@
     "rich",
     "jodit"
   ],
-  "license": "http://xdsoft.net/jodit/license.html",
+  "license": "SEE LICENSE IN <license.txt>",
   "author": "Chupurnov <chupurnov@gmail.com> (http://xdsoft.net/)",
   "bugs": {
     "url": "https://github.com/xdan/jodit/issues"
@@ -27,8 +26,9 @@
     "url": "https://github.com/xdan/jodit.git"
   },
   "devDependencies": {
-    "concat": "azer/concat",
-    "concat-cli": "^4.0.0",
+    "concatinator": "^1.0.2",
+    "less": "^2.7.1",
+    "less-plugin-clean-css": "^1.5.1",
     "uglifyjs": "^2.4.10"
   }
 }

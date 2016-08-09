@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.8/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.8/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.9/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.9/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -80,6 +80,19 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.4.10
+* Added [node.create](http://xdsoft.net/jodit/doc/module-Node.html#create) method
+```javascript
+var editor = new Jodit('.jodit'),
+    node = editor.node.create('text', 'Hellow world');
+editor.selection.insertNode(node);
+```
+* Added [link](http://xdsoft.net/jodit/doc/module-link.html) plugin. And its options
+  * processPastedLink Wrap inserted link in `<a href="link">link</a>`
+  * openLinkDialogAfterPost Open Link dialog after post 
+  * removeLinkAfterFormat When the button is pressed to clean format, if it was done on the link is removed like command `unlink` 
+* Replace format icon
+
 ### 2.4.8
 Fix Base icons [issue](https://gist.github.com/leonderijke/c5cf7c5b2e424c0061d2)
 
