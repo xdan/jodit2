@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.15/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.15/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.16/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.16/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,9 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.4.17
+Fix copy-paste html behavior
+
 ### 2.4.16
 Fixed bug on after type `Enter`
 
