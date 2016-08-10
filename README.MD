@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.18/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.18/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.19/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.19/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,14 +88,18 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.4.20
+* Fixed z-index Popap
+* Fixed behavior of selection table cells
+
 ### 2.4.17
-Fix copy-paste html behavior
+Fixed copy-paste html behavior
 
 ### 2.4.16
 Fixed bug on after type `Enter`
 
 ### 2.4.15
-Fixed bug with insert `OL` tag and fix Dom module work with Text node
+Fixed bug with insert `OL` tag and Fixed Dom module work with Text node
 
 ### 2.4.12
 Added [toolbarButtonSize](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#toolbarbuttonsize) Size of icons in the toolbar (can be "small", "middle", "large")
@@ -118,11 +122,11 @@ editor.selection.insertNode(node);
 * Replace format icon
 
 ### 2.4.8
-Fix Base icons [issue](https://gist.github.com/leonderijke/c5cf7c5b2e424c0061d2)
+Fixed Base icons [issue](https://gist.github.com/leonderijke/c5cf7c5b2e424c0061d2)
 
 ### 2.4.6
-Fast fix in JJE
-Fix a lot of bugs in Jodit
+Fast Fixed in JJE
+Fixed a lot of bugs in Jodit
 
 ### 2.4.1
 * Fixed a lot of bugs in Dom module
@@ -139,7 +143,7 @@ Fix a lot of bugs in Jodit
 * In Joomla Jodit Editor(JJE) added corresponding option saveModeInCookie [Download Jodit Joomla editor](http://xdsoft.net/jodit/release/joomla.zip)
 
 ### 2.3.57
-* Fix issue with `input[type=checkbox]` and [Dom.attr](http://xdsoft.net/jodit/doc/module-Dom.html#attr) method
+* Fixed issue with `input[type=checkbox]` and [Dom.attr](http://xdsoft.net/jodit/doc/module-Dom.html#attr) method
 * Release Joomla Jodit Editor (JJE) [Download JJE](http://xdsoft.net/jodit/release/joomla.zip)
 
 ### 2.3.53
@@ -180,7 +184,7 @@ Allowed values are:
 * 'rtl' – Indicates a Right-To-Left text direction (like in Arabic).
 
 ### 2.3.43
-Fix styles bugs
+Fixed styles bugs
 
 ### 2.3.41
 When [filebrowser.showFoldersPanel](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#filebrowser) === false show 4 colums in filelist
@@ -191,7 +195,7 @@ When [filebrowser.showFoldersPanel](http://xdsoft.net/jodit/doc/Jodit.defaultOpt
 * Added [filebrowser.showFoldersPanel](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#filebrowser) option. Hide/show folders panel in filebrowser
 
 ### 2.3.39
-Fix [Filebrowser](http://xdsoft.net/jodit/doc/module-Filebrowser.html) uploader's options bug. 
+Fixed [Filebrowser](http://xdsoft.net/jodit/doc/module-Filebrowser.html) uploader's options bug. 
 Previously , you had to either use a general [Uploader](http://xdsoft.net/jodit/doc/module-Uploader.html) module settings , or override them completely
 ```javascript
 var editor = new Jodit('.redactor', {
@@ -232,9 +236,9 @@ var editor = new Jodit('.redactor', {
 ```
 
 ### 2.3.38
-* Fix i18n bug
+* Fixed i18n bug
 * [useSplitMode](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#usesplitmode) set default false
-* Fix toolbar width after fullsize mode
+* Fixed toolbar width after fullsize mode
 * Fixed [#issue5](https://github.com/xdan/jodit/issues/5)
 
 ### 2.3.37
@@ -248,11 +252,11 @@ editor.events.fire('toggleFullsize', [true]); // fullsize
 editor.events.fire('toggleFullsize', [false]); // usual mode
 ```
 * Added [globalFullsize](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#globalFullsize) (default `true`) if true, after `fullsize` - all parents element get `jodit_fullsize_box` class (z-index: 100000 !important;) 
-* Fix focus bug
+* Fixed focus bug
  
 ### 2.3.35
-* Fix placeholder style
-* Fix [Dom.css](http://xdsoft.net/jodit/doc/module-Dom.html#~css) then 
+* Fixed placeholder style
+* Fixed [Dom.css](http://xdsoft.net/jodit/doc/module-Dom.html#~css) then 
 ```html
 <div class="idclass" style="margin-top:20px;"></div>
 ```
@@ -262,7 +266,7 @@ Jodit.modules.Dom('.idclass').css('margin-top');//now it returns int `20`
 ```
 
 ### 2.3.33
-* Fix placeholder style. Placeholder placed in a separate module [Placeholder](http://xdsoft.net/jodit/doc/module-Placeholder.html)
+* Fixed placeholder style. Placeholder placed in a separate module [Placeholder](http://xdsoft.net/jodit/doc/module-Placeholder.html)
 * Added [showPlaceholder](http://xdsoft.net/jodit/doc/module-Placeholder.html#showplaceholder) option
 * Added [useInputsPlaceholder](http://xdsoft.net/jodit/doc/module-Placeholder.html#useinputsplaceholder) option
 * Added [placeholder](http://xdsoft.net/jodit/doc/module-Placeholder.html#placeholder) option
@@ -274,7 +278,7 @@ Added [editorCssClass](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#edi
 Fixed internacionalization
 ### 2.3.30
 Added [triggerChangeEvent](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#triggerchangeevent) option
-Fix uploader's options - When the uploader is not configured, the editor still displays images upload button
+Fixed uploader's options - When the uploader is not configured, the editor still displays images upload button
 ### 2.3.29
 Add [Dom.defaultAjaxOptions.async](http://xdsoft.net/jodit/doc/module-Dom.html#.__.defaultAjaxOptions) By default, all requests are sent asynchronously (i.e. this is set to true by default). If you need synchronous requests, set this option to false
 ### 2.3.28
@@ -318,8 +322,8 @@ Jodit.modules.Dom.ajax({
 ### 2.3.27
 Fixed [#issues1](https://github.com/xdan/jodit/issues/1)
 ### 2.3.24
-Fix dialog's module when was opened Promt window, after Enter submit the form and the page reloaded. 
-Fix connector's bugs
+Fixed dialog's module when was opened Promt window, after Enter submit the form and the page reloaded. 
+Fixed connector's bugs
 Update [Jodit.i18n](http://xdsoft.net/jodit/doc/module-Jodit.html#.i18n) method. Now it can be used staticly
 ```javascript
 var editor = new Jodit("#redactor", {
@@ -348,18 +352,18 @@ var editor = new Jodit('.jodit');
 editor.destroy();
 ```
 ### 2.3.22
-Fix bug when Dialog module was used without Jodit context
+Fixed bug when Dialog module was used without Jodit context
 ```javascript
 Jodit.Alert('Hello world!!!');
 ```
 ### 2.3.20
-Fix dialog's module zIndex manage.
-Fix [Dom.css](http://xdsoft.net/jodit/doc/module-Dom.html#~css) method bug. That example has not worked.
+Fixed dialog's module zIndex manage.
+Fixed [Dom.css](http://xdsoft.net/jodit/doc/module-Dom.html#~css) method bug. That example has not worked.
 ```javascript
 Jodit.modules.Dom('.someelement').css('z-index', 1000) 
 ```
 ### 2.3.19
-Fix bug in Uploader module when `http://sitename.net/jodit///files/fg.jpg` was replaced `http:/sitename.net/jodit/files/fg.jpg`
+Fixed bug in Uploader module when `http://sitename.net/jodit///files/fg.jpg` was replaced `http:/sitename.net/jodit/files/fg.jpg`
 ### 2.3.18
 Added `afterInsertImage` event - triggered after image was inserted [selection.insertImage](http://xdsoft.net/jodit/doc/module-Selection.html#-insertImage__anchor). 
 This method can executed from [Filebrowser](http://xdsoft.net/jodit/doc/module-Filebrowser.html) or [Uploader](http://xdsoft.net/jodit/doc/module-Uploader.html)
@@ -370,34 +374,34 @@ editor.events.on('afterInsertImage', function (image) {
 });
 ```
 ### 2.3.15
-Fix bug with inserting table
+Fixed bug with inserting table
 ### 2.3.14
 Work with table became faster
 ### 2.3.12
-* Fix filbrowser bug. When a new file is uploaded file list has not been updated
+* Fixed filbrowser bug. When a new file is uploaded file list has not been updated
 * Added [dialog.zIndex](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.dialog) option
 ### 2.3.11
-Fix toolbar width fot fullsize mode
+Fixed toolbar width fot fullsize mode
 ### 2.3.10
-* Fix CodeMirror bug on download XML parser
-* Fix CodeMirror bug endless cycle
-* Fix overflow behavior in fullsize mode
+* Fixed CodeMirror bug on download XML parser
+* Fixed CodeMirror bug endless cycle
+* Fixed overflow behavior in fullsize mode
 ### 2.3.8
-Fix connector problem and fix item's style in filebrowser
+Fixed connector problem and Fixed item's style in filebrowser
 ### 2.3.3
 Switched on FontAwesome icons
 ### 2.3.0
 Added copy-paste image file for FireFox
 ### 2.2.6
-Fix copy-paste for FireFox
+Fixed copy-paste for FireFox
 ### 2.2.5
 Added copy-paste support by clipboard image. [Try](http://xdsoft.net/jodit) paste print screen.
 ### 2.2.4
 Added the ability in the file browser to obtain data about the file not as a string and as an object with parameters {file: 'name.jpg', thumb: '_thumbs/name.jpg'}
 ### 2.2.3
-Fix conflict between textProcessor and Beatyfier plugins
+Fixed conflict between textProcessor and Beatyfier plugins
 ### 2.2.2
-Fix BACKSPACE entering behavior. And fix ie10 support
+Fixed BACKSPACE entering behavior. And Fixed ie10 support
 ### 2.2.0
 Added [iframe](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.iframe), [iframeStyle](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.iframeStyle), [iframeIncludeJoditStyle](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.iframeIncludeJoditStyle), [iframeCSSLinks](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.iframeCSSLinks), [width](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.width), [height](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.height), [minHeight](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.minHeight).
  `iframe` by default false. When this option is enabled, the editor's content will be placed in an iframe and isolated from the rest of the page.
@@ -407,17 +411,17 @@ Added internationalization. Read more http://xdsoft.net/jodit/doc/Jodit.defaultO
 ### 2.0.9
 Added Split mode. Added [useSplitMode](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.useSplitMode) options (default true) Example [here](http://xdsoft.net/jodit/#splitmode)
 ### 2.0.8
-Fix dialog bug
+Fixed dialog bug
 ### 2.0.4
 Added CodeMirror plugin. Enable by default {@link defaultOptions~codeMirror.|options.codeMirror}
 ### 2.0.0
 We got rid of jQuery
 ### 1.2.1
-Fix bug in filebrowser
+Fixed bug in filebrowser
 ### 1.2.0
-Fix bug when [selection.insertHTML](http://xdsoft.net/jodit/doc/module-Selection.html#-inner-insertHTML__anchor) dosn't work without focus
+Fixed bug when [selection.insertHTML](http://xdsoft.net/jodit/doc/module-Selection.html#-inner-insertHTML__anchor) dosn't work without focus
 ### 1.1.0
-Fix bug with uploader and filebrowser
+Fixed bug with uploader and filebrowser
 ### 1.0.6
 If source `textarea` has `placeholder` attribute then Jodit use it how placeholder
 ### 1.0.4
