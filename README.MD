@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.19/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.19/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.20/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.4.20/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,9 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.4.21
+* Fixed TableProcessor's bugs. In a situation did not appear resizer cells and the resizer throughout the table. 
+
 ### 2.4.20
 * Fixed z-index Popap
 * Fixed behavior of selection table cells
