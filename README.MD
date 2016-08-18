@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.5/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.5/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.7/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.7/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -90,9 +90,9 @@ ______________________
 ______________________
 ### 2.5.1
 * Dom module was rewrited and was fixed  afew bugs
-* In [OEM and Pro](http://xdsoft.net/jodit/#download) added [Image Editor module](http://xdsoft.net/jodit/doc/module-ImageEditor.html)
-[Crop Image](http://xdsoft.net/jodit/stuf/crop.jpg)
-[Resize Image](http://xdsoft.net/jodit/stuf/resize.jpg)
+* In [OEM and Pro](http://xdsoft.net/jodit/#download) added [Image Editor module](http://xdsoft.net/jodit/doc/module-ImageEditor.html) resize and crop image.  You can try [here](http://xdsoft.net/jodit/)
+![Crop Image](http://xdsoft.net/jodit/stuf/crop.jpg)
+![Resize Image](http://xdsoft.net/jodit/stuf/resize.jpg)
 
 ### 2.4.22
 * Added contextmenu module.
