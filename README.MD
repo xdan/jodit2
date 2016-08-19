@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.9/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.9/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.10/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.10/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,11 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.11
+* Added file info in filebrowser
+![Filebrowser file info](http://xdsoft.net/jodit/stuf/filebrowsernames.jpg)
+* Added [showFileName,showFileSize,showFileChangeTime](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#filebrowser)
+
 ### 2.5.1
 * Dom module was rewrited and was fixed  afew bugs
 * In [OEM and Pro](http://xdsoft.net/jodit/#download) added [Image Editor module](http://xdsoft.net/jodit/doc/module-ImageEditor.html) resize and crop image.  You can try [here](http://xdsoft.net/jodit/)
