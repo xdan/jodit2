@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.10/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.10/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.11/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.11/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,10 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.12
+Added edit button in Image Properties Dialog
+![Edit button](http://xdsoft.net/jodit/stuf/editbutton.jpg)
+
 ### 2.5.11
 * Added file info in filebrowser
 ![Filebrowser file info](http://xdsoft.net/jodit/stuf/filebrowsernames.jpg)
