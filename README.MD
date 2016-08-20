@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.15/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.15/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.16/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.16/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,9 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.17
+Fixed bug in JJE
+
 ### 2.5.16
 * Fixed a few styles
 
@@ -424,12 +427,15 @@ Work with table became faster
 ### 2.3.12
 * Fixed filbrowser bug. When a new file is uploaded file list has not been updated
 * Added [dialog.zIndex](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#.dialog) option
+
 ### 2.3.11
 Fixed toolbar width fot fullsize mode
+
 ### 2.3.10
 * Fixed CodeMirror bug on download XML parser
 * Fixed CodeMirror bug endless cycle
 * Fixed overflow behavior in fullsize mode
+
 ### 2.3.8
 Fixed connector problem and Fixed item's style in filebrowser
 ### 2.3.3
