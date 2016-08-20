@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.13/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.13/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.14/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.14/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,9 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.15
+* Fixed `package.json`
+
 ### 2.5.13
 * Added in FileBrowser [sort](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#filebrowser) options
 * Jodit.Promt and Jodit.Alert by default set focus to OK button
