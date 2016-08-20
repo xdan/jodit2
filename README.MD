@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.11/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.11/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.12/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.12/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,21 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.13
+* Added in FileBrowser [sort](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#filebrowser) options
+* Jodit.Promt and Jodit.Alert by default set focus to OK button
+```javascript
+Jodit.Promt('Enter your name', function (name) {
+    if (!name.length) {
+        Jodit.Alert('You need enter 3 chars');
+        return false;
+    }
+    //... some logic
+});
+```
+* Fix `$config` bug in [JJE](http://xdsoft.net/jodit/release/joomla.zip)
+* Added a few options in JJE plugin
+
 ### 2.5.12
 Added edit button in Image Properties Dialog
 ![Edit button](http://xdsoft.net/jodit/stuf/editbutton.jpg)
