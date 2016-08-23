@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.17/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.17/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.18/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.18/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,35 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.19
+Added [cleanHTML.allowTags](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#cleanhtml) option.
+```javascript
+var editor = Jodit('#editor', {
+    allowTags: 'p,a[href],table,tr,td, img[src=1.png]' // allow only <p>,<a>,<table>,<tr>,<td>,<img> tags and for <a> allow only `href` attribute and <img> allow only `src` atrribute == '1.png'
+});
+editor.val('Sorry! <strong>Goodby</strong> <span>mr.</span> <a style="color:red" href="http://xsoft.net">Freeman</a>');
+console.log(editor.val()); //Sorry! <a href="http://xsoft.net">Freeman</a>
+```
+
+Or you can use PlainObject. This code equivalent to the top
+```javascript
+var editor = Jodit('#editor', {
+    allowTags: {
+        p: true,
+        a: {
+            href: true
+        },
+        table: true,
+        tr: true,
+        td: true,
+        img: {
+            src: '1.png'
+        }
+    }
+});
+```
+
+
 ### 2.5.18
 Fixed bug in Image plugin
 
