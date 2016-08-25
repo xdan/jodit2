@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.18/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.18/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.19/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.19/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,12 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.20
+* Fix [Dom.prev](http://xdsoft.net/jodit/doc/module-Dom.html#prev) method
+* Added navigation and select in preview
+![Navigation and select buttons](http://xdsoft.net/jodit/stuf/preview_navigation.jpg)
+* Added [showSelectButtonInPreview](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#filebrowser) and [showPreviewNavigation](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#filebrowser)
+
 ### 2.5.19
 Added [cleanHTML.allowTags](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#cleanhtml) option.
 ```javascript
