@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.21/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.21/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.22/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.22/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,10 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.23
+* Added `expand button` In filebrowser  
+* Added [fullsize](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#dialog) and [fullsizeButton](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#dialog) options
+
 ### 2.5.20
 * Fix [Dom.prev](http://xdsoft.net/jodit/doc/module-Dom.html#prev) method
 * Added navigation and select in preview
