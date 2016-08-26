@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.24/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.24/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.25/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.25/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,16 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.26
+Dom Module is now compatible with jQuery objects
+```javascript
+var a = jQuery("<a href="#link">Link</a>");
+jodit.modules.Dom('.selector').append(a);
+jodit.modules.Dom(jQuery("#someid")).val();
+jodit.modules.Dom("#someid").val();
+```
+But you must remember that Jodit.modules.Dom! = JQuery
+
 ### 2.5.23
 * Added `expand button` In filebrowser  
 * Added [fullsize](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#dialog) and [fullsizeButton](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#dialog) options
