@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.25/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.25/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.26/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.26/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -97,6 +97,26 @@ jodit.modules.Dom(jQuery("#someid")).val();
 jodit.modules.Dom("#someid").val();
 ```
 But you must remember that Jodit.modules.Dom! = JQuery
+
+### 2.5.27
+* Fixed IE11's bug [http://xdsoft.net/jodit/doc/module-Jodit.html#comment-2866837441]
+* Added [textIcons](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#texticons) options - Use text instead of icons. In IE9 it is default - true [Example](http://xdsoft.net/jodit/#example-text-icons)
+```javascript
+var editor = new Jodit("#example2_0", {
+    textIcons: true,
+    removeButtons: [
+        "hr",
+        "ol",
+        "about",
+        "italic",
+        "format",
+        "fullsize",
+        "justify"
+    ]
+});
+```
+![Text icons](http://xdsoft.net/jodit/stuf/texticons.jpg)
+![Text icons in filebrowser](http://xdsoft.net/jodit/stuf/texticons-filebrowser.jpg)
 
 ### 2.5.23
 * Added `expand button` In filebrowser  
