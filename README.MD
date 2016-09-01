@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.26/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.26/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.27/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.27/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,18 +88,18 @@ ______________________
 
 ## Changelog
 ______________________
-### 2.5.26
-Dom Module is now compatible with jQuery objects
+### 2.5.28
+Fix bug in Dialog.Confirm
 ```javascript
-var a = jQuery("<a href="#link">Link</a>");
-jodit.modules.Dom('.selector').append(a);
-jodit.modules.Dom(jQuery("#someid")).val();
-jodit.modules.Dom("#someid").val();
+Jodit.Confirm("Are you shure?", "Confirm", function (success) {
+    if (success) {
+        alert("Agree");
+    }
+});
 ```
-But you must remember that Jodit.modules.Dom! = JQuery
 
 ### 2.5.27
-* Fixed IE11's bug [http://xdsoft.net/jodit/doc/module-Jodit.html#comment-2866837441]
+* Fixed IE11's bug [http://xdsoft.net/jodit/doc/module-Jodit.html#comment-2866837441](http://xdsoft.net/jodit/doc/module-Jodit.html#comment-2866837441)
 * Added [textIcons](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#texticons) options - Use text instead of icons. In IE9 it is default - true [Example](http://xdsoft.net/jodit/#example-text-icons)
 ```javascript
 var editor = new Jodit("#example2_0", {
@@ -117,6 +117,16 @@ var editor = new Jodit("#example2_0", {
 ```
 ![Text icons](http://xdsoft.net/jodit/stuf/texticons.jpg)
 ![Text icons in filebrowser](http://xdsoft.net/jodit/stuf/texticons-filebrowser.jpg)
+
+### 2.5.26
+Dom Module is now compatible with jQuery objects
+```javascript
+var a = jQuery("<a href="#link">Link</a>");
+jodit.modules.Dom('.selector').append(a);
+jodit.modules.Dom(jQuery("#someid")).val();
+jodit.modules.Dom("#someid").val();
+```
+But you must remember that Jodit.modules.Dom! = JQuery
 
 ### 2.5.23
 * Added `expand button` In filebrowser  
