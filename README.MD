@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.28/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.28/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.29/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.29/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,11 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.29
+Fix Splitmode autohaight
+![Autoheight in Split mode Jodit](http://xdsoft.net/jodit/stuf/split-mode.jpg)
+Fix syncronize code in TableProcessor module
+
 ### 2.5.28
 Fix bug in Dialog.Confirm
 ```javascript
