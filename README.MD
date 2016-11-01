@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.34/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.34/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.35/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.35/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,10 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.36
+* In PHP FileBrowser connector added MaxFileSize option
+* Fixed popap error in filebrowser 
+
 ### 2.5.30
 Fix Splitmode autohaight
 ![Autoheight in Split mode Jodit](http://xdsoft.net/jodit/stuf/split-mode.jpg)
