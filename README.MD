@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.36/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.36/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.37/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.37/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,10 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.38
+* Added `Filter` in FileBrowser
+* Added `SortBy` in FileBrowser
+
 ### 2.5.37
 * Fixed bug in [`Beautifier`](http://xdsoft.net/jodit/doc/module-Beautifier.html) plugin. When in `source` mode, start comment enter `<!--` Browser stops responding.
 * Added `tiles` and `list` switcher in filebrowser
