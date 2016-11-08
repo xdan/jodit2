@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.37/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.37/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.38/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.38/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,9 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.39
+Fix [#issue 11](https://github.com/xdan/jodit/issues/11) in `file:` mode CDN CodeMirror not working
+
 ### 2.5.38
 * Added `Filter` in FileBrowser
 * Added `SortBy` in FileBrowser
