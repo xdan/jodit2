@@ -2,7 +2,7 @@
 
 # Jodit WYSIWYG Editor
 
-Editor and FileBrowser - Jodit. Pure javascript. No libraries! Lightweight:~32kB gzipped.
+Editor and FileBrowser - Jodit. Pure javascript. No libraries! Lightweight:~32kB gzipped. [Try](http://xdsoft.net/jodit/)
 ## Non-commercial free. 
 Read [more](http://xdsoft.net/jodit/license.html)
 ## Download or Buy 
@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.40/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.40/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.41/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.41/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,9 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.42
+Fix a few bugs in [JJE](http://xdsoft.net/jodit/#extesions)
+
 ### 2.5.40
 * In [Helper](http://xdsoft.net/jodit/doc/module-Helper.html) module added [isHTML] method. Used plugin `insertHTML`
 * Added simple plugin `insertHTML` and him option `askBeforePasteHTML` - Ask before paste HTML in WYSIWYG mode. Try insert in WYSIWYG mode some HTML source
