@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.38/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.38/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.39/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.39/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,47 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.40
+* In [Helper](http://xdsoft.net/jodit/doc/module-Helper.html) module added [isHTML] method. Used plugin `insertHTML`
+* Added simple plugin `insertHTML` and him option `askBeforePasteHTML` - Ask before paste HTML in WYSIWYG mode. Try insert in WYSIWYG mode some HTML source
+```javascript
+(function ($) {
+    "use strict";
+    Jodit.defaultOptions = $.extend(true, Jodit.defaultOptions, {
+        /**
+         * @property {boolean} askBeforePasteHTML=true Ask before paste HTML in WYSIWYG mode
+         */
+        askBeforePasteHTML: true
+    });
+
+    /**
+     * Ask before paste HTML source
+     *
+     * @module insertHTML
+     */
+    Jodit.plugins.insertHTML = function (parent) {
+        if (parent.options.askBeforePasteHTML) {
+            parent.events.on('beforePaste', function (event) {
+                if (event && event.clipboardData && event.clipboardData.getData && event.clipboardData.types[0] === 'text/plain') {
+                    var html = event.clipboardData.getData('text/plain');
+                    if (parent.helper.isHTML(html)) {
+                        Jodit.Confirm('Your code is similar to HTML. Paste as HTML?', 'Paste as HTML', function (agree) {
+                            if (agree) {
+                                parent.selection.insertHTML(html);
+                            } else {
+                                parent.selection.insertHTML(parent.helper.htmlspecialchars(html));
+                            }
+                            parent.syncCode(true);
+                        });
+                        return false;
+                    }
+                }
+            });
+        }
+    };
+}(Jodit.modules.Dom));
+```
+
 ### 2.5.39
 Fix [#issue 11](https://github.com/xdan/jodit/issues/11) in `file:` mode CDN CodeMirror not working
 
