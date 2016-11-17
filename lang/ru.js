@@ -9,10 +9,9 @@ Jodit.lang.ru = {
     'For information about the license, please go to our website:': 'Для получения сведений о лицензии , пожалуйста, перейдите на наш сайт:',
     'Buy full version': 'Купить полную версию',
     'Copyright © XDSoft.net - Chupurnov Valeriy. All rights reserved.': 'Авторские права © XDSoft.net - Чупурнов Валерий. Все права защищены.',
-    
+
     // Toolbar
     'Anchor': 'Анкор',
-    'Open in new tab': 'Открывать ссылку в новой вкладке',
     'Open in new tab': 'Открывать ссылку в новой вкладке',
     'Open editor in fullsize': 'Открыть редактор в полном размере',
     'Clear Formatting': 'Очистить форматирование',
@@ -45,7 +44,7 @@ Jodit.lang.ru = {
     'Insert': 'Вставить',
     'Insert table': 'Вставить таблицу',
     'Change mode': 'Источник',
-    
+
     //plugin Image
     'Margins': 'Отступы',
     'top': 'сверху',
@@ -69,7 +68,11 @@ Jodit.lang.ru = {
     'Image properties': 'Свойства изображения',
     'Cancel': 'Отмена',
     'Ok': 'Ok',
-    
+
+    //plugin insertHTML
+    'Your code is similar to HTML. Paste as HTML?': 'Ваш текст, который вы пытаетесь вставить похож на HTML. Вставить его как HTML?',
+    'Paste as HTML': 'Вставить как HTML?',
+
     // File Browser module
     'File Browser': 'Браузер файлов',
     'Error on load list': 'Ошибка при загрузке списка изображений',
@@ -78,7 +81,7 @@ Jodit.lang.ru = {
     'Enter Directory name': 'Введите название директории',
     'Create directory': 'Создать директорию',
     'type name': 'введите название',
-    
+
     // Form module
     'Drop image': 'Перетащите сюда изображение',
     'or click': 'или нажмите',
@@ -88,7 +91,7 @@ Jodit.lang.ru = {
 
     'Background': 'Фон',
     'Text': 'Текст',
-    
+
      // popap module
     'Top': ' К верху',
     'Middle': 'По середине',
