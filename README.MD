@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.43/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.43/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.44/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.44/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,11 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.45
+* Fixed bug in Image Resizer when border was less than Image
+* Rename Selection.setCursorTo to Selection.moveCursorTo
+* Fixed style for Dialog resizer
+
 ### 2.5.42
 Fix a few bugs in [JJE](http://xdsoft.net/jodit/#extesions)
 
