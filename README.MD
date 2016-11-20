@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.44/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.44/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.45/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.45/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,12 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.46
+* More comfortable colorpicker
+![More comfortable colorpicker](http://xdsoft.net/jodit/stuf/colorpicker.jpg)
+* Added [Helper.normalizeColor](http://xdsoft.net/jodit/doc/module-Helper.html#~normalizeColor)
+* Fixed [Helper.colorToHex](http://xdsoft.net/jodit/doc/module-Helper.html#~colorToHex) now for transparent color it will return NaN
+
 ### 2.5.45
 * Fixed bug in Image Resizer when border was less than Image
 * Rename Selection.setCursorTo to Selection.moveCursorTo
