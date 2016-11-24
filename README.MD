@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.47/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.47/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.48/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.48/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,98 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.49
+First step for Mobile friendly [sizeLG,sizeMD,sizeSM](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#sizeLG) and sets of buttons for different sizes editors.
+> `Note`. this is not the width of the device, the width of the editor
+
+* buttons The list of buttons that appear in the editor's toolbar on large places (≥ options.sizeLG).
+* buttonsMD The list of buttons that appear in the editor's toolbar on medium places (≥ options.sizeMD).
+* buttonsSM The list of buttons that appear in the editor's toolbar on small places (≥ options.sizeSM).
+* buttonsXS The list of buttons that appear in the editor's toolbar on extra small places (< options.sizeSM).
+
+```javascript
+var editor = new Jodit('#some-editor', {
+    sizeLG: 900,
+    sizeMD: 700,
+    sizeSM: 400,
+
+    buttons: [
+        'source', '|',
+        'bold',
+        'italic', '|',
+        'ul',
+        'ol', '|',
+        'font',
+        'fontsize',
+        'brush',
+        'paragraph', '|',
+        'image',
+        'table',
+        'link', '|',
+        'left',
+        'center',
+        'right',
+        'justify', '|',
+        'undo', 'redo', '|',
+        'hr',
+        'eraser',
+        'fullsize',
+        'about'
+    ],
+    buttonsMD: [
+        'source', '|',
+        'bold',
+        'italic', '|',
+        'ul',
+        'ol', '|',
+        'font',
+        'fontsize',
+        'brush',
+        'paragraph', '|',
+        'image',
+        'table',
+        'link', '|',
+        'left',
+        'center',
+        'right',
+        'justify', '|',
+        'undo', 'redo', '|',
+        'hr',
+        'eraser',
+        'fullsize'
+    ],
+    buttonsSM: [
+        'bold',
+        'italic', '|',
+        'ul',
+        'ol', '|',
+        'fontsize',
+        'brush',
+        'paragraph', '|',
+        'image',
+        'table',
+        'link', '|',
+        'left',
+        'center',
+        'right', '|',
+        'undo', 'redo', '|',
+        'eraser',
+        'fullsize'
+    ],
+    buttonsXS: [
+        'bold',
+        'image', '|',
+        'brush',
+        'paragraph', '|',
+        'left',
+        'center',
+        'right', '|',
+        'undo', 'redo', '|',
+        'eraser'
+    ],
+});
+```
+
 ### 2.5.46
 * More comfortable colorpicker
 ![More comfortable colorpicker](http://xdsoft.net/jodit/stuf/colorpicker.jpg)
