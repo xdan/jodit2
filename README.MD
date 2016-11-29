@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.51/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.51/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.52/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.52/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,13 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.53
+Added [Jodit.focus](http://xdsoft.net/jodit/doc/module-Jodit.html#.focus) method
+```javascript
+var editor = new Jodit('.redactor');
+editor.focus();
+```
+
 ### 2.5.52
 Added `OK` button in Alert dialog
 #### More About dialogs
