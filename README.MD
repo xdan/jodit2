@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.50/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.50/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.51/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.51/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,50 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.52
+Added `OK` button in Alert dialog
+#### More About dialogs
+#### Alert
+![Alert dialog](http://xdsoft.net/jodit/stuf/alert.jpg)
+```javascript
+Jodit.Alert("File was uploaded");
+Jodit.Alert("File was uploaded", "Message");
+Jodit.Alert("File was uploaded", function() {
+   $('form').hide();   
+});
+Jodit.Alert("File wasn't uploaded", "Error", function() {
+   $('form').hide();   
+});
+```
+
+#### Promt
+![Promt dialog](http://xdsoft.net/jodit/stuf/promt.jpg)
+```javascript
+Jodit.Promt("Enter your name", function (name) {
+    if (name.length < 3) {
+        Jodit.Alert("The name must be at least 3 letters");
+        return false;
+    }
+    // do something
+});
+Jodit.Promt("Enter your name", "Promt Dialog", function (name) {
+    if (name.length < 3) {
+        Jodit.Alert("The name must be at least 3 letters");
+        return false;
+    }
+    // do something
+});
+```
+#### Confirm
+![Confirm dialog](http://xdsoft.net/jodit/stuf/confirm.jpg)
+```javascript
+Jodit.Confirm("Are you shure?", function (yes) {
+    if (yes) {
+        // do something
+    }
+});
+```
+
 ### 2.5.49
 First step for Mobile friendly [sizeLG,sizeMD,sizeSM](http://xdsoft.net/jodit/doc/Jodit.defaultOptions.html#sizeLG) and sets of buttons for different sizes editors.
 > `Note`. this is not the width of the device, the width of the editor
