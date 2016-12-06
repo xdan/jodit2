@@ -5,7 +5,7 @@ Jodit.lang.de = {
     'Jodit Editor': 'Jodit Editor',
     'Free Non-commercial Version': 'Freie Nicht-kommerzielle Version',
     'Jodit User\'s Guide': 'Jodit Benutzerhandbuch',
-    'contains detailed help for using': 'Enthält eine ausführliche Hilfe zur Verwendung',
+    'contains detailed help for using': 'enthält eine ausführliche Hilfe zur Verwendung des Editors',
     'For information about the license, please go to our website:': 'Für Informationen über die Lizenz, gehen Sie bitte auf unsere Webseite:',
     'Buy full version': 'Vollversion kaufen',
     'Copyright © XDSoft.net - Chupurnov Valeriy. All rights reserved.': 'Copyright © XDSoft.net - Chupurnov Valeriy. Alle Rechte vorbehalten.',
@@ -43,7 +43,7 @@ Jodit.lang.de = {
 
     'Insert': 'Einfügen',
     'Insert table': 'Tabelle einfügen',
-    'Change mode': 'Änderungsmodus',
+    'Change mode': 'Modus ändern',
     
     //plugin Image
     'Margins': 'Außenabstand',
