@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.55/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.55/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.56/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.56/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,22 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.57
+* Added `useIframeResizer` option for resize IFRAME tag
+![Iframe resizer](http://xdsoft.net/jodit/stuf/iframe-resizer.jpg)
+* Added `offsetTopForAssix` option.
+For example, in Joomla, the top menu bar closes Jodit toolbar when scrolling. Therefore, it is necessary to move the toolbar Jodit by this amount
+```javascript
+var editor = new Jodit('#editor', {
+    offsetTopForAssix: 74
+});
+```
+Without affix offset
+![Without affix](http://xdsoft.net/jodit/stuf/joomla-exampla-affix-bad.jpg)
+
+With affix offset
+![Withou affix](http://xdsoft.net/jodit/stuf/joomla-exampla-affix-good.jpg)
+
 ### 2.5.55
 Added `Embed video` button. Added `vimeo` or `youtube` video embeded code.
 
