@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.52/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.52/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.53/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.53/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,14 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.54
+When you insert text into the editor from another site, all the images are from a remote site. Before Jodit, it was quite uncomfortable: first I had to download the image from a remote resource, and then upload it to your site, then replace the image in the editor.
+In 2.5.54 it can be done in 3 clicks
+
+![Upload remote image](http://xdsoft.net/jodit/stuf/upload-remote-image.jpg)
+
+> `Note`. Need update [PHP Connector](https://github.com/xdan/jodit-connectors)
+
 ### 2.5.53
 Added [Jodit.focus](http://xdsoft.net/jodit/doc/module-Jodit.html#.focus) method
 ```javascript
@@ -99,7 +107,7 @@ editor.focus();
 Added `OK` button in Alert dialog
 #### More About dialogs
 #### Alert
-![Alert dialog](http://xdsoft.net/jodit/stuf/alert.jpg)
+
 ```javascript
 Jodit.Alert("File was uploaded");
 Jodit.Alert("File was uploaded", "Message");
