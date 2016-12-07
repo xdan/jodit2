@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.54/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.54/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.55/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.55/jodit.min.js"></script>
 ```
 ### USAGE
 
