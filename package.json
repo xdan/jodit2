@@ -1,6 +1,6 @@
 {
   "name": "jodit",
-  "version": "2.5.54",
+  "version": "2.5.55",
   "description": "Jodit is awesome and usefully wysiwyg editor with filebrowser",
   "main": "jodit.min.js",
   "scripts": {
