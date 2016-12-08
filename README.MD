@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.56/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.56/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.57/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.57/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -100,7 +100,6 @@ var editor = new Jodit('#editor', {
 ```
 Without affix offset
 ![Without affix](http://xdsoft.net/jodit/stuf/joomla-exampla-affix-bad.jpg)
-
 With affix offset
 ![Withou affix](http://xdsoft.net/jodit/stuf/joomla-exampla-affix-good.jpg)
 
