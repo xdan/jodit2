@@ -54,8 +54,8 @@ Include just two files
 ```
 ### CDN
 ```xml
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.60/jodit.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.60/jodit.min.js"></script>
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.61/jodit.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/jodit/2.5.61/jodit.min.js"></script>
 ```
 ### USAGE
 
@@ -88,6 +88,14 @@ ______________________
 
 ## Changelog
 ______________________
+### 2.5.61
+Added `zIndex` option
+```javascript
+var editor = new Jodir('.editor', {
+    zIndex: 10000
+})
+```
+
 ### 2.5.60
 * Fix table editor in iframe mode
 * Fix styles
